@@ -17,4 +17,3 @@ Angular 调用指令和组件的生命周期钩子函数，包括它的创建、
 | ngAfterViewInit()| 初始化完组件视图及其子视图之后调用。第一次ngAfterContentChecked()之后调用，只调用一次。**只适合组件。**|
 | ngAfterViewChecked()| 每次做完组件视图和子视图的变更检测之后调用。ngAfterViewInit()和每次ngAfterContentChecked()之后调用。**只适合组件。**|
 | ngOnDestroy()| 当Angular每次销毁指令/组件之前调用并清扫。 在这儿反订阅可观察对象和分离事件处理器，以防内存泄漏。在Angular销毁指令/组件之前调用。|
-
